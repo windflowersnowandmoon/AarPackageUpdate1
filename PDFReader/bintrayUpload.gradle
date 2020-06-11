@@ -3,8 +3,8 @@ apply plugin: 'com.jfrog.bintray'
 // This is the library version used when deploying the artifact
 version = "1.0.4"//这里是你的版本，当你需要上传新的版本到bintry上时，只需要修改这里的版本即可
 
-def siteUrl = 'https://github.com/windflowersnowandmoon/KHReader'      // 项目的主页
-def gitUrl = 'https://github.com/windflowersnowandmoon/KHReader.git'   // Git仓库的url
+def siteUrl = 'https://github.com/windflowersnowandmoon/AarPackageUpdate1'      // 项目的主页
+def gitUrl = 'https://github.com/windflowersnowandmoon/AarPackageUpdate1.git'   // Git仓库的url
 group = "com.lzy.pdfreader"                                        // Maven Group ID for the artifact，一般填你唯一的包名
 
 android {
